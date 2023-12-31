@@ -4,7 +4,7 @@
 ### AIM:
 To design a half adder and full adder circuit and verify its truth table in Quartus using Verilog programming.
 
-### Equipments Required:
+## Equipments Required:
 Hardware – PCs, Cyclone II , USB flasher
 Software – Quartus prime
 Theory
@@ -15,40 +15,61 @@ Half adder is a combinational circuit that performs simple addition of two binar
 
 Sum = A’B+AB’ =A ⊕ B Carry = AB
 
-### Full Adder
+## Full Adder
 Full adder is a digital circuit used to calculate the sum of three binary bits. It consists of three inputs and two outputs. Two of the input variables, denoted by A and B, represent the two significant bits to be added. The third input, Cin, represents the carry from the previous lower significant position. Two outputs are necessary because the arithmetic sum of three binary digits ranges in value from 0 to 3, and binary 2 or 3 needs two digits. The two outputs are sum and carry.
 
 Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = AB + ACin + BCin
 
  ![image](https://user-images.githubusercontent.com/36288975/163552156-a13e5a56-c638-4110-97d9-8896907c8d25.png)
 
-#### Figure -01 HALF ADDER 
+## Figure -01 HALF ADDER 
 
 
 ![image](https://user-images.githubusercontent.com/36288975/163552057-b3547877-6d07-45b4-b7e0-bcfebfad9e1d.png)
 
-#### Figure -02 FULL ADDER 
 
-### Procedure
+## Procedure
 
 Connect the supply (+5V) to the circuit
 Switch ON the main switch
 If the output is 1, then the led glows.
-### 
-Program:
+## Program:
 /*
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+
+Developed by: NATARAJ KUMARAN S
+
+RegisterNumber: 23003973
 */
-Logic symbol & Truthtable
-RTL realization
+### Half ADDER:
+![Screenshot 2023-12-31 103507](https://github.com/nataraj26/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147514615/65f4147c-7693-4fc2-9aeb-9fbbaad86521)
+### Full ADDER:
+v![Screenshot 2023-12-31 105420](https://github.com/nataraj26/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147514615/616ed963-8f72-49ee-821e-5c36ae18f5ff)
 
-### Output:
-### RTL
-### TIMING DIAGRAM
+## RTL realization
+### Half ADDER:
+![Screenshot 2023-12-31 105202](https://github.com/nataraj26/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147514615/b3b64d94-86fc-4ee9-b989-bec9d000ae16)
+
+### Full ADDER:
+![Screenshot 2023-12-31 103002](https://github.com/nataraj26/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147514615/d4705a2e-7a55-41eb-9440-43911db3282f)
+
+## TRUTH TABLE 
+### Half ADDER:
+![Screenshot 2023-12-31 104022](https://github.com/nataraj26/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147514615/92915473-7ee6-46f5-a7ca-eec1d8e74a11)
+
+### Full ADDER:
+![Screenshot 2023-12-31 104115](https://github.com/nataraj26/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147514615/82aadfde-17f9-40d8-864a-7610c81517e4)
+
+## TIMING DIAGRAM
+### Half ADDER:
+![Screenshot 2023-12-31 105325](https://github.com/nataraj26/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147514615/ba643c22-11ef-475b-ab37-209367be683d)
 
 
-### TRUTH TABLE 
+### Full ADDER:
+![Screenshot 2023-12-31 103451](https://github.com/nataraj26/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147514615/e04fa492-0728-4c6b-8141-452a86ccf806)
 
-### Result:
+
+
+
+## Result:
+To design a halfadder and fulladder circuit and verified its truth table in quartus using verilog programming.
